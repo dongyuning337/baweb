@@ -1,0 +1,25 @@
+{
+  "name": "arona-linker",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "sync:students": "node scripts/sync-students.cjs",
+    "cf:dev": "wrangler dev",
+    "cf:deploy": "wrangler deploy"
+  },
+  "dependencies": {
+    "canvas-confetti": "^1.9.3",
+    "jszip": "^3.10.1"
+  },
+  "devDependencies": {
+    "kuroshiro": "^1.2.1",
+    "kuroshiro-analyzer-kuromoji": "^1.1.0",
+    "typescript": "^5.9.3",
+    "vite": "^6.3.5",
+    "wrangler": "^3.114.17"
+  }
+}
